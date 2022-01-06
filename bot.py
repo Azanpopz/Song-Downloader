@@ -24,7 +24,7 @@ if __name__ == "__main__" :
     plugins = dict(
         root="mt_privateautocaption"
     )
-    MoTech = pyrogram.Client(
+    Bot = pyrogram.Client(
         "CaptionBot",
         bot_token=Config.BOT_TOKEN,
         api_id=Config.API_ID,
