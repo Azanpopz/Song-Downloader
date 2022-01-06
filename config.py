@@ -14,4 +14,4 @@ class Config(object):
     CAPTION = os.environ.get("CAPTION", "@Mo_Tech_YT @Mo_Tech_Group")
     BUTTON_TEXT = os.environ.get("BUTTON", "🔻Join Channel🔻")
     URL_LINK = os.environ.get("LINK", "T.ME/MO_TECH_YT")
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
+    USERNAME = os.environ.get("USERNAME", "")
