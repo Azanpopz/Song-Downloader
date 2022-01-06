@@ -18,7 +18,6 @@ from pyrogram.errors import FloodWait, InputUserDeactivated, UserIsBlocked, Peer
 from pyrogram.errors.exceptions.bad_request_400 import PeerIdInvalid
 
 
-from __future__ import unicode_literals
 
 import asyncio
 import math
