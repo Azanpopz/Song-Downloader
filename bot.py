@@ -18,6 +18,23 @@ from pyrogram.errors import FloodWait, InputUserDeactivated, UserIsBlocked, Peer
 from pyrogram.errors.exceptions.bad_request_400 import PeerIdInvalid
 
 
+
+
+import os
+import logging
+import pyrogram
+from config import Config  
+
+
+if __name__ == "__main__" :
+    plugins = dict(
+        root="mt_privateautocaption"
+    )
+    
+
+
+
+
 Bot = Client(
     "Song Downloader Bot",
     bot_token = os.environ["BOT_TOKEN"],
