@@ -1,7 +1,7 @@
 # This Repo was not fully owned by me. Some codes are scraped from respected DEVOLEPERS whom where mine friends. 
 # check Readme.md For More. 
 
-from __future__ import unicode_literals
+
 
 import logging
 logger = logging.getLogger(__name__)
