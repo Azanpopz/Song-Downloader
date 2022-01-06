@@ -35,4 +35,4 @@ ffmpeg-python
 aiohttp
 lyricsgenius
 ffmpeg
-avconv
+avconv==21.3.1
