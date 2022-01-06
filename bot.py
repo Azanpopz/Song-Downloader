@@ -31,15 +31,12 @@ if __name__ == "__main__" :
         root="mt_privateautocaption"
     )
     
-
-
-
-
 Bot = Client(
     "Song Downloader Bot",
     bot_token = os.environ["BOT_TOKEN"],
     api_id = int(os.environ["API_ID"]),
     api_hash = os.environ["API_HASH"]
+    bot_token=Config.MT_BOT_TOKEN,
 )
 
 db = Database()
