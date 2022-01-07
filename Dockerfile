@@ -6,7 +6,7 @@ RUN pip3 install -U pip
 COPY requirements.txt /requirements.txt
 RUN cd /
 RUN pip3 install -U -r requirements.txt
-RUN mkdir /AnyDLBot
-WORKDIR /AnyDLBot
+RUN mkdir /CaptionBot
+WORKDIR /CaptionBot
 COPY start.sh /start.sh
 CMD ["/bin/bash", "/start.sh"]
