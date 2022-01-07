@@ -15,3 +15,11 @@ class Config(object):
     BUTTON_TEXT = os.environ.get("BUTTON", "🔻Join Channel🔻")
     URL_LINK = os.environ.get("LINK", "T.ME/MO_TECH_YT")
     USERNAME = os.environ.get("USERNAME", "")
+
+    
+
+    AUDIO_THUMBNAIL = os.environ.get("AUDIO_THUMBNAIL", "")
+
+    VIDEO_THUMBNAIL = os.environ.get("VIDEO_THUMBNAIL", "")
+
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
