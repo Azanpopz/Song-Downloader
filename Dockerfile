@@ -1,12 +1,5 @@
-FROM python:latest
-
-RUN apt update && apt upgrade -y
-RUN apt install git curl python3-pip ffmpeg -y
-RUN pip3 install -U pip
-COPY requirements.txt /requirements.txt
-RUN cd /
-RUN pip3 install -U -r requirements.txt
-RUN mkdir /AnyDLBot
-WORKDIR /AnyDLBot
-COPY start.sh /start.sh
-CMD ["/bin/bash", "/start.sh"]
+FROM python:3.9
+WORKDIR /app
+COPY . /app/
+RUN pip install -r requirements.txt
+CMD ["python", "bot.py"]
