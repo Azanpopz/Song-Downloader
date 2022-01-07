@@ -1,6 +1,6 @@
 echo "Cloning Repo...."
-git clone https://github.com/Azanopopz/Song-Downloader.git /CaptionBot
-cd /CaptionBot
+git clone https://github.com/ZauteKm/AnyDLBot.git /AnyDLBot
+cd /AnyDLBot
 pip3 install -r requirements.txt
 echo "Starting Bot...."
-python bot.py
+python3 bot.py
