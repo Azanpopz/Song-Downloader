@@ -206,7 +206,7 @@ s2tw = OpenCC('s2tw.json').convert
 @Bot.on_message(filters.command("start"))
 async def start(client, message):
    if message.chat.type == 'private':
-       await ZauteKm.send_message(
+       await update.send_message(
                chat_id=message.chat.id,
                text="""<b>Hey There, I'm AnyDLBot
 
@@ -232,7 +232,7 @@ Hit help button to find out more about how to use me</b>""",
 @Bot.on_message(filters.command("help"))
 async def help(client, message):
     if message.chat.type == 'private':   
-        await ZauteKm.send_message(
+        await update.send_message(
                chat_id=message.chat.id,
                text="""<b><u>AnyDLBot Help!</u></b>
 
@@ -259,7 +259,7 @@ Just send a Youtube, Pornhub or Xhamster video url to download it in video or au
 @Bot.on_message(filters.command("about"))
 async def about(client, message):
     if message.chat.type == 'private':   
-        await ZauteKm.send_message(
+        await update.send_message(
                chat_id=message.chat.id,
                text="""<b><u>About AnyDLBot!</u></b>
 
