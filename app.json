@@ -40,7 +40,39 @@
         "BOT_NAME": {
             "description": "your Bot name ",
             "value": "Song Downloader bot"
-        }, 
+        },
+        "BOT_TOKEN": {
+            "description": "your Bot token ",
+            "value": "bot token"
+        },
+        "CAPTION": {
+            "description": "your caption",
+            "value": "caption"
+        },
+        "BUTTON_TEXT": {
+            "description": "button text",
+            "value": "button txt"
+        },
+        "URL_LINK": {
+            "description": "your link",
+            "value": "https://t.me/nasranichatgoup"
+        },
+        "AUDIO_THUMBNAIL": {
+            "description": "No ",
+            "value": "No"
+        },
+        "USERNAME": {
+            "description": "username ",
+            "value": "USERNAME"
+        },
+        "VIDEO_THUMBNAIL": {
+            "description": "no ",
+            "value": "NO"
+        },
+        "UPDATES_CHANNEL": {
+            "description": "UPDATES_CHANNEL ",
+            "value": "UPDATES_CHANNEL"
+        },
         "BOT_USERNAME": {
             "description": "Your bot Username Without @",
             "value": "NazriyaSongBot"
